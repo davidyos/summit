@@ -1,0 +1,189 @@
+
+body {
+	margin:0;
+	padding:0;
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	color: #333;
+	font-size:16px;
+	line-height: 1.8;
+}
+
+
+.navbar-right li a:hover { color:#fcea10 !important}
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; line-height: 1.42857143;}
+.navbar-default { border-bottom:1px solid #262e46; font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; background: rgba(42, 73, 139, 0.95); }
+.navbar-default .navbar-nav > li > a {color:#FFF}
+.merriweather {font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;}
+
+.topnav:after {left: 0;top: 100%;content: '';
+  width: 100%;
+  height: 42px;
+  position: absolute;
+  background: url(../img/header-shadow.png) no-repeat;
+  background-position: center bottom;
+}
+
+.main_bg { background:url(../img/background.jpg) no-repeat center center; min-height:640px;}
+.menu-cont { margin-top:200px; color:#FFF}
+.menu-cont h1 { font-size:22px;}
+.menu-cont strong { font-size:85px; margin: 10px 0; display:block}
+.menu-cont strong.second{ font-size:24px; margin: 10px 0; display:block}
+.title-section { color:rgba(42, 73, 139, 1); font-size:30px; display:block; margin-bottom:55px; text-align:center}
+/*arif css*/.title-under-section { color:#FFF; font-size:24px; display:block; margin-bottom:35px; text-align:center}
+/*arif css*/.color-list { color:#000;}
+/*arif css*/.team-member {margin-bottom: 50px;}
+.text-muted {color:#000;}
+.add-padding{ padding:80px 0 100px;}
+.blue-bg {  background: linear-gradient(rgba(42, 73, 139, 0.10),rgba(42, 73, 139, 0.10)),url(../img/pattern.jpg) center center; color:#FFF;}
+.blue-bg p{ color:#FFF;}
+.blue-bg h1,h2,h3,h4{ color:#FFF;}
+.border-bottom { border-bottom:1px solid #e6e6e6;}
+.grey-bg {background-color: #f2f2f2;color: #111111;}
+.speaker-image img{ width:80%; margin-left:10%;  -webkit-background-clip: padding-box;-webkit-border-radius: 215px;-moz-background-clip: 
+padding-box; border-radius: 215px;-webkit-background-clip: padding-box;background-clip: padding-box; overflow:hidden}
+.speaker-name { text-align:center; font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size:16px; display:block; margin-top:30px;}
+.speaker-company { text-align:center; font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size:16px; display:block; margin-top:5px; color:#999}
+.hero-feature { margin-bottom:30px;}
+.schedule-body{  margin-top: 0px; -webkit-box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.5); box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.5);}
+.event-header{  background: #fbfbfb;padding: 20px 10px;}
+.event-header .day {font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size:1em; font-weight: 700;text-transform: 
+uppercase;color: #1a1a1a;text-align: center;}
+.event-header .title {font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-weight: 300;font-size: 1.3em;
+color: #1a1a1a;text-align: center;}
+.schedule-body .content {font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size:1em;color: #666666;display:block;
+clear:both;overflow:hidden;border-top:1px solid #E9E9E9;border-bottom:1px solid #E9E9E9;margin-bottom:-1px;padding:15px 0}
+.schedule-body .content:hover {background:#fbfbfb;cursor:pointer;}
+.content-full {clear:both;font-size:1em;padding:15px;margin-top:15px;font-size:0.9em;display:none;}
+.content img {width: 30px;height: 30px;border-radius: 60px;border: 3px solid #CCC;display:inline-block;float:right;margin:2px;}
+
+
+
+.event-time {font-size: 14px;color:#000;}
+.event-time i{display:inline-block;margin-right:10px;}
+.event-title {color:#f74819;font-size:16px;font-weight:bold}
+#map-canvas {width: 100%;height: 100%;}
+.map { min-height:400px; clear:both;}
+.map-desc{margin-top:-350px; padding: 15px;}
+.map-desc p { font-size:0.9em;}
+.white-bg{ background:#FFF}
+.logo-sponsor {	border:1px solid #E9E9E9;}
+.logo-sponsor img { width:80%; margin-left:10%;}
+
+
+.footer-bg { background:#3a3c41; color:#999ca5; padding:50px 0}
+.footer-bg h4 { font-size:1.2em; color:#fff; display:block; margin-bottom:20px; padding-bottom:5px;}
+.footer-bg p { font-size:1em}
+.input-field {background: #515359;border: none;color: #999ca5;font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; line-height: 1.;
+border-radius: 0;box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);display:block;padding: 4.6px 10px;width: 100%;font-size:1em;margin:0;}
+
+.button-submit { margin:0; display: block; width:100%; background: rgba(42, 73, 139, 0.95); font-size:1em; 
+padding: 7px 10px; font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; line-height: 1.42857143; cursor:pointer; text-align:center}
+.button-submit:hover { background:rgba(42, 73, 139, 1);}
+.footer-bg a { color:#999ca5; font-size:30px; margin-right:5px; margin-top:5px; display: inline-block}
+
+.no-padding { padding:0 !important;}
+#owl-demo .item img{display: block;width: 100%;height: auto;}
+.footer-note { font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size:1em; text-align:center; 
+border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
+
+
+.lang-cont { display:block; float:right; color:#FFF; margin-top:10px; background:#1c3b7c; font-size:0.8em; padding: 0 10px;}
+.lang-cont span:hover { color:#fcea10; cursor:pointer;}
+
+.lang-cont span.dark { font-weight:bold;}
+
+
+
+
+/*Mobile screen*/
+@media (min-width:200px) and (max-width:769px){
+	.navbar-right {
+		float: left !important;
+	}
+	.lang-cont { display:none}
+	body {font-size:13px;}
+	.navbar-right li a:hover { border-bottom: none; color:#f7f538 !important}
+	.navbar-toggle{margin-top:20px;}
+	.topnav img {width:120px;}
+	.menu-cont h1 { font-size:16px;}
+	.menu-cont strong { font-size:50px;}
+	.menu-cont strong.second{ font-size:18px;}
+	.add-padding{ padding:30px 0 50px;}
+	.title-section { font-size:30px}
+	.speaker-name { font-size:14px;}
+	.speaker-company { font-size:13px;}
+	.speaker-image img{ width:60%; margin-left:20%; }
+	.event-header .title { font-size:14px;}
+	.content img {width: 40px;height: 40px;}
+	.content-full {font-size:13px;}
+	.map-desc { margin-top:15px; background:none}
+	.map-desc p { font-size:1em;}
+	.map { min-height:320px;}
+
+
+}
+/*Mobile screen*/
+@media (min-width:200px) and (max-width:500px){
+	.main_bg {min-height:570px}
+	.menu-cont { margin-top:230px;}
+	.title-section { font-size:20px; text-align: left; margin-bottom:25px;}
+	.speaker-name { font-size:13px;}
+	.speaker-company { font-size:12px;}
+	.speaker-image img{ width:90%; margin-left:0; }
+	.content img {width: 30px;height: 30px;}
+	
+
+}
+
+/*Tablet screen*/
+@media (min-width:768px) and (max-width:991px){
+	.navbar-default .navbar-nav > li > a { font-size:12px;}
+	body {font-size:13px;}
+	.navbar-right li {margin-left:10px; font-size:15px;}
+	.navbar-right{float:right!important;margin-right:-118px;}
+	.navbar-right li a:hover { border-bottom: none;}
+	.navbar-nav > li > a { padding-bottom: 0 !important;}
+	.lang-cont { margin-top:15px;}
+	.navbar-right{margin-top:35px;}
+	.topnav img {width:150px;}
+	.add-padding{ padding:60px 0 80px;}
+	.speaker-name { font-size:14px;}
+	.speaker-company { font-size:13px;}
+	.speaker-image img{ width:80%; margin-left:10%; }
+	.event-header .title { font-size:15px;}
+	.content img {width: 40px;height: 40px;}
+	.content-full {font-size:13px;}
+	.map-desc p { font-size:1em;}
+	.map { min-height:380px;}
+	.map-desc{margin-top:-340px; padding: 15px;}
+	.logo-sponsor img { width:60%; margin-left:20%;}
+}
+
+/*Small laptop screen*/
+@media (min-width:992px) and (max-width:1199px){
+	.lang-cont { margin-top:15px;}
+	.navbar-right li {margin-left:30px; font-size:15px;}
+	.navbar-right{margin-top:35px;}
+	.navbar-nav > li > a { padding-bottom: 0;}
+	.navbar-right li { margin-left:20px;}
+	.navbar-right li a:hover { border-bottom: none;}
+	.topnav img {width:150px}
+	.add-padding{ padding:60px 0 80px;}
+	.speaker-name { font-size:14px;}
+	.speaker-company { font-size:14px;}
+	.speaker-image img{ width:70%; margin-left:15%; }
+	.event-header .title { font-size:15px;}
+	.content-full {font-size:13px;}
+	.navbar-right li { font-size:14px;}
+	
+}
+
+/*PC screen*/
+@media (min-width:1200px){
+	.lang-cont { margin-top:15px;}
+	.navbar-right li {margin-left:30px;font-size:15px;}
+	.navbar-right{margin-top:34px;}
+	.topnav img {width:150px;}
+	.navbar-nav > li > a { padding-bottom: 3px; !important;}
+	
+}

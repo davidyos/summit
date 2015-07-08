@@ -8,7 +8,10 @@ body {
 	line-height: 1.6;
 }
 
-
+#owl-demo .item{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .footer-bg a {color:#09F; font-size:1em;}
 .list-indent{ margin-left:-25px;}
 .content-full ul { margin-left:-25px; list-style-type:circle}
@@ -32,7 +35,8 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans','Helvetica Neue',Arial,sans-ser
 .menu-cont h1 { font-size:22px;}
 .menu-cont strong { font-size:40px; margin: 50px 0; display:block}
 .menu-cont strong.second{ font-size:22px; margin: 50px 0; display:block}
-.title-section { color:rgba(42, 73, 139, 1); font-size:30px; display:block; margin-bottom:55px; text-align:center}
+.title-section { color:rgba(42, 73, 139, 1); font-size:28px; display:block; margin-bottom:55px; text-align:center}
+.title-section-venue { color:rgba(42, 73, 139, 1); font-size:28px; display:block; margin-bottom:55px; text-align:left; margin: 0 0 15px 0}
 /*arif css*/.title-under-section { color:#FFF; font-size:24px; display:block; margin-bottom:35px; text-align:center}
 /*arif css*/.color-list { color:#000;}
 /*arif css*/.team-member {margin-bottom: 50px;}
@@ -64,7 +68,7 @@ clear:both;overflow:hidden;border-top:1px solid #E9E9E9;border-bottom:1px solid 
 
 .event-time {font-size: 14px;color:#000;}
 .event-time i{display:inline-block;margin-right:10px;}
-.event-title {color:#f74819;font-size:16px;font-weight:bold}
+.event-title {color:#f74819;font-size:14px;font-weight:bold}
 #map-canvas {width: 100%;height: 100%;}
 .map { min-height:400px; clear:both;}
 .map-desc{margin-top:-350px; padding: 15px;}
@@ -101,13 +105,17 @@ border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
 
 /*.bg-top { background:url(../img/top-logo.png) no-repeat left center; height:115px;}*/
 /*Mobile screen*/
+
+
+
+
+
+
 @media (min-width:200px) and (max-width:769px){
 	
 	.footer-bg p { text-align: left}
 	#about p { text-align:left}
-	.navbar-right {
-		float: left !important;
-	}
+	.navbar-right {float: left !important;}
 	.lang-cont { display:none}
 	body {font-size:13px;}
 	.navbar-right li a:hover { border-bottom: none; color:#f7f538 !important}
@@ -131,9 +139,10 @@ border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
 	.logo-organizer { width:200px;}
 	.event-title {font-size:14px;}
 	.footer-bg h4 { margin-bottom:10px; margin-top:0px;}
-	
-
+	.title-section-venue { text-align:center; margin-bottom:30px; font-size:30px}
+	.menu-cont strong { font-size:22px;}
 }
+
 /*Mobile screen*/
 @media (min-width:200px) and (max-width:500px){
 	.main_bg {min-height:570px}
@@ -146,7 +155,7 @@ border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
 	.menu-cont strong { font-size:18px; margin: 30px 0;}
 	.menu-cont strong.second{ margin: 30px 0;font-size: 14px; display:block}
 	.menu-cont h1 {font-size: 14px;}
-
+	.title-section-venue { text-align:center; margin-bottom:25px;  font-size:20px; text-align: left;}
 }
 
 /*Tablet screen*/
@@ -176,6 +185,7 @@ border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
 	.navbar-right {margin-top: 0;}
 	.footer-bg p { font-size:1em}
 	.logo-organizer { width:200px;}
+	.menu-cont strong { font-size:32px;}
 
 }
 
@@ -198,6 +208,9 @@ border-top: 1px solid #575859; padding-top:40px; margin-top:20px;}
 	.content-full {font-size:13px;}
 	.navbar-right li { font-size:14px;}
 	.logo-organizer { width:200px;}
+	.title-section-venue { font-size:23px;}
+	.title-section { font-size:23px;}
+	.menu-cont strong { font-size:32px;}
 	
 }
 

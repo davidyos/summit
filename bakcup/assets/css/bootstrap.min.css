@@ -425,7 +425,7 @@ pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;backgrou
 }
 @media (min-width:992px){.container{width:970px}
 }
-@media (min-width:1200px){.container{width:1170px}
+@media (min-width:1200px){.container{width:1180px}
 }
 .container-fluid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 /*.row{margin-right:-15px;margin-left:-15px}*/
@@ -1033,7 +1033,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 @media (min-width:768px){.navbar-text{float:left;margin-right:15px;margin-left:15px}
 }
 @media (min-width:990px){.navbar-left{float:left!important}
-.navbar-right{float:right!important;margin-right:-138px;}
+.navbar-right{float:right!important;margin-right:-204px;}
 .navbar-right~.navbar-right{margin-right:0}
 }
 .navbar-default{background-color:#FFF;border-color:#e7e7e7}
